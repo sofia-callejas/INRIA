@@ -62,7 +62,7 @@ def train_phone_finder(path):
     model = YOLO('yolov8n.pt')
 
     # Training the model
-    summary = model.train(data='dataset.yaml', epochs=15, imgsz=256, device='cpu')
+    summary = model.train(data='dataset.yaml', epochs=20, imgsz=256, device='cpu')
 
     # Save the trained model
     model.save('find_phone.pt')
