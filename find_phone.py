@@ -1,5 +1,7 @@
 # Libraries for data manipulation and image processing
 import cv2
+
+#Python libraries
 import sys
 
 # Specific library from Ultralytics (YOLO)
